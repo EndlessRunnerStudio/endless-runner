@@ -112,7 +112,7 @@ let rstarSize = new Array(ranzahlSterne);
 let rstarColor = new Array(ranzahlSterne);
 
 function setup() {
- canvas = createCanvas(1200, 600);
+ canvas = createCanvas(1300, 800);
 
   for (let i = 0; i < anzahlSterne; i++) {
     starX[i] = random(0, 650);
